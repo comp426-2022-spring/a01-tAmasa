@@ -1,0 +1,31 @@
+{
+  "name": "my-own-private-web-server",
+  "version": "0.0.1",
+  "description": "This package contains a very simple web server that takes one argument for port and then serves index.html in the www directory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://tAmasa: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@github.com/comp426-2022-spring/a01-tAmasa.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "\"server\",",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a01-tAmasa/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a01-tAmasa#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
