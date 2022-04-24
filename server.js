@@ -1,7 +1,8 @@
 const http = require('http')
 const fs  = require('fs')
-const minimist = require('minimist')
-const port = process.env.PORT || 3000
+const args = require('minimist')(process.argv.slice(2))
+args["port"] 
+const port = args.port ||process.env.PORT || 3000
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200
